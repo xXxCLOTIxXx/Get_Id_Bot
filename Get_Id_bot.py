@@ -1,6 +1,6 @@
 import AminoLab
 client = AminoLab.Client()
-client.auth(email="rolaaav11@gmail.com", password="9379992p")
+client.auth(email='Your email', password='Your password)
 clients = client.my_communities()
 
 for name, ndc_Id in zip(clients.name, clients.ndc_Id):
